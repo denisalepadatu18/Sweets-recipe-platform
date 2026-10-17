@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rețete de Dulciuri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+
+<header>
+    <div class="logo">Dulciuri Delicioase</div>
+    <nav>
+        <ul class="meniu" id="main-nav-list">
+            <li><a href="#" id="login-trigger">👤 Login</a></li>
+            <li><a href="index.html">Acasă</a></li>
+            <li class="dropdown">
+                <a href="retete.html">Rețete</a>
+                <ul class="submenu">
+                    <li><a href="reteta-tort.html">Tort de ciocolată</a></li>
+                    <li><a href="reteta-tiramisu.html">Tiramisu</a></li>
+                    <li><a href="reteta-cheesecake.html">Cheesecake</a></li>
+                    <li><a href="reteta-brownies.html">Brownies</a></li>
+                    <li><a href="reteta-chec.html">Chec pufos</a></li>
+                    <li><a href="reteta-tarta.html">Tartă cu fructe</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="login-modal" style="display:none; position: fixed; top: 70px; right: 20px; background: var(--roz); padding: 15px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 2000;">
+    <input type="text" id="username-inp" placeholder="Utilizator (admin)" style="margin-bottom: 5px; padding: 5px; width: 150px; display: block;">
+    <input type="password" id="password-inp" placeholder="Parolă" style="margin-bottom: 5px; padding: 5px; width: 150px; display: block;">
+    <button id="login-exec-btn" class="btn" style="width: 100%; padding: 5px;">Intră</button>
+</div>
+
+<section id="favorites-section" class="container" style="display:none; margin: 20px auto; padding: 20px; border-radius: 15px; border: 2px solid var(--roz);">
+    <h2 id="fav-title">⭐ Rețetele tale favorite</h2>
+    <ul id="fav-list" style="list-style: none; padding: 0;"></ul>
+</section>
+
+<section class="hero">
+    <h1>Bine ați venit la Dulciuri Delicioase!</h1>
+    <p>Descoperă cele mai savuroase rețete de deserturi, explicate pas cu pas.</p>
+    <a href="retete.html" class="btn">Vezi toate rețetele</a>
+</section>
+
+
+<section class="intro">
+  <div class="intro-container">
+    <h2>Despre mine</h2>
+    <p>
+      <strong>Bun venit pe colțul meu dulce!</strong> Eu mă numesc Denisa Gabriela Lepadatu, sunt studentă (am aproape 19 ani) și o mare iubitoare de deserturi. Am pornit acest site din dorința de a împărtăși magia pe care o simt de fiecare dată când prepar un tort sau o prăjitură. Vreau să te ajut să vezi că prepararea dulciurilor acasă poate fi ușoară, relaxantă și plină de satisfacție. Fiecare rețetă e o mică poveste pe care abia aștept să o guști!
+    </p>
+  </div>
+</section>
+
+<section class="fun-fact-container">
+    <h3>🤯 Record Mondial Adevărat!</h3>
+    <p>
+      Știai că cel mai scump desert din lume costă 25.000 $? Este vorba despre <strong>Înghețata Frrrozen Haute Chocolate</strong>! Nu doar că este plină de aur comestibil de 5 grame, dar este servită și cu o lingură tot din aur. Asta da desert de lux! 🍨 
+    </p>
+</section>
+
+<section class="intro">
+  <div class="intro-container">
+    <h2>Bucuria deserturilor făcute acasă</h2>
+    <p>
+      De ce să facem deserturi acasă? Pentru că nimic nu se compară cu gustul unui chec sau al unei tarte scoase proaspăt din cuptorul tău! Dulciurile au puterea de a aduce zâmbete și de a crea amintiri. Pe lângă faptul că ai control total asupra ingredientelor, procesul de gătit este incredibil de relaxant și îți stimulează creativitatea. Aici vei găsi rețete care te vor ajuta să transformi momentele simple în experiențe pline de savoare și culoare.
+    </p>
+  </div>
+</section>
+
+<section class="fun-fact-container">
+    <h3>🎉 Sărbătoare Dulce!</h3>
+    <p>
+      Păi, nu se putea să nu avem o sărbătoare dedicată! În caz că nu știai, <strong>Ziua Internațională a Deserturilor</strong> se sărbătorește în fiecare an pe <strong>14 octombrie</strong>. Un motiv în plus să ne răsfățăm!
+    </p>
+</section>
+
+
+<section class="intro-container">
+    <h2>📜 Călătorie în Istoria Deserturilor</h2>
+    <p>
+        De unde vine cuvântul <strong>"desert</strong>? Chiar din franceză, de la "desservir", care înseamnă pur și simplu <strong>"a strânge/curăța masa"</strong>. Așadar, desertul era felul de mâncare servit după ce se debarasa masa de felurile principale. Interesant este că, în Evul Mediu, francezii serveau <strong>entremets</strong>, care erau un fel de gustări între felurile de mâncare, dulci sau sărate. Majoritatea prăjiturilor complexe de astăzi, care îmbină straturi și texturi diverse, își trag rădăcinile tocmai din aceste preparate sofisticate.
+    </p>
+    <p>
+        Tortul, așa cum îl știm noi, este relativ nou. Primele variante au apărut în Europa abia în secolul al XVII-lea. Chiar și cuvântul <strong>"tort"</strong> este de origine vikingă, derivat din <strong>"kaka"</strong>. Marile schimbări au venit în secolul al XIX-lea, odată cu apariția torturilor moderne, cu glazuri și creme din ce în ce mai rafinate. Din fericire, astăzi, plăcerea de a crea un tort spectaculos acasă ne este accesibilă tuturor!
+    </p>
+    <p>
+        Multe dintre deserturile noastre preferate au apărut fie <strong>din greșeală</strong>, fie dintr-o nevoie practică. De exemplu, despre faimoasele <strong>brownies</strong> circulă mai multe legende legate de originea lor accidentală. Se spune că o femeie din clasa superioară din Statele Unite, care făcea prăjituri des, pregătea o prăjitură cu ciocolată obișnuită (chocolate cake). Aceasta a uitat să adauge praf de copt sau bicarbonat de sodiu în aluatul de ciocolată. Fără agentul de creștere, prăjitura nu s-a umflat, ci a rămas densă, aplatizată și foarte moale. Deși nu arăta ca prăjitura obișnuită, gustul era absolut delicios. Femeia a decis să o taie în pătrate ușor de servit, în loc să o arunce. A numit-o Brownie, după culoarea sa maro intensă. În schimb, <strong>cupcakes-urile</strong> s-au dezvoltat rapid în secolul al XIX-lea ca o soluție rapidă și eficientă. Fiecare desert, de la gogoși și înghețată, la babka, are o istorie fascinantă de explorat!
+    </p>
+</section>
+
+
+
+<section class="retete-grid">
+
+   <section class="intro">
+     <div class="intro-container">
+     <h1>Rețetele noastre</h1>
+   </section>
+
+
+    <div class="grid-container">
+
+      
+        <div class="card">
+            <img src="photos/tort.jpg" alt="Tort de ciocolată">
+            <div class="card-text">
+                <h3>Tort de ciocolată</h3>
+                <p>Blat pufos cu cacao, cremă fină de mascarpone și ciocolată, decorat elegant.</p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="photos/tiramisu.jpg" alt="Tiramisu">
+            <div class="card-text">
+                <h3>Tiramisu</h3>
+                <p>Desert clasic italian cu cafea, mascarpone și un strat generos de cacao.</p>
+        
+            </div>
+        </div>
+
+       
+        <div class="card">
+            <img src="photos/cheesecake.jpg" alt="Cheesecake">
+            <div class="card-text">
+                <h3>Cheesecake</h3>
+                <p>Crustă crocantă, cremă fină de brânză și jeleu de căpșuni, perfect echilibrat.</p>
+            </div>
+        </div>
+
+        
+        <div class="card">
+            <img src="photos/brownies.jpg" alt="Brownies">
+            <div class="card-text">
+                <h3>Brownies</h3>
+                <p>Bucăți dense și ciocolatoase, cu ciocolată topită și picături crocante.</p>
+            </div>
+        </div>
+
+        
+        <div class="card">
+            <img src="photos/chec.jpg" alt="Chec pufos">
+            <div class="card-text">
+                <h3>Chec pufos</h3>
+                <p>Chec în două culori, moale și aromat, perfect pentru gustări sau deserturi rapide.</p>
+            </div>
+        </div>
+
+        
+        <div class="card">
+            <img src="photos/tarta.jpg" alt="Tartă cu fructe">
+            <div class="card-text">
+                <h3>Tartă cu fructe</h3>
+                <p>Crustă crocantă, cremă de vanilie și fructe proaspete de pădure pentru un gust perfect.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<canvas id="canvas-logo" width="50" height="50" style="vertical-align: middle;"></canvas>
+<footer>
+    <p> Dulciuri Delicioase — Lepadatu Denisa Gabriela </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
